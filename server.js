@@ -6,7 +6,7 @@ const routesUrls = require("./routes/routes");
 const cors = require("cors");
 
 dotenv.config();
-
+// backend code
 mongoose.connect(
   process.env.DATABASE_ACCESS,
   { useNewUrlParser: true, useUnifiedTopology: true }
