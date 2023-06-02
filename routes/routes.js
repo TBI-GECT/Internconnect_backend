@@ -31,15 +31,15 @@ router.post('/', (request, response) => {
       host:"smtp.gmail.com",
       port:465,
       auth: {
-        user: "azdi2024@gmail.com",
-        pass: "vqsocetcqsizgxta"
+        user: "summerstartupfest2022@gmail.com",
+        pass: "fffozzkokgovfgbt"
       }
     });
 
 
 
     const mailOptions = {
-      from: "azdi2024@gmail.com",
+      from: "summerstartupfest2022@gmail.com",
       to: request.body.email,
       subject: "Form Submission",
       text: "You have submitted the form successfully.We will reach out to you soon.Thank you"
